@@ -118,12 +118,6 @@ This system is designed for **internal medical centre staff** including doctors,
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Windows OS
-- .NET Framework (version X.X)
-- SQL Server / Oracle Database installed and running
 
 
 ## 📄 License
