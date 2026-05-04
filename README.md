@@ -6,9 +6,7 @@
 ![Language](https://img.shields.io/badge/Language-C%23-239120?style=flat-square&logo=csharp)
 ![Framework](https://img.shields.io/badge/Framework-.NET%20Framework-512BD4?style=flat-square&logo=dotnet)
 ![UI](https://img.shields.io/badge/UI-Windows%20Forms-0078D4?style=flat-square)
-![Database](https://img.shields.io/badge/Database-SQL%20Server%20%2F%20Oracle-CC2927?style=flat-square&logo=microsoftsqlserver)
-![Architecture](https://img.shields.io/badge/Architecture-3--Layer-grey?style=flat-square)
-
+![Database](https://img.shields.io/badge/Database-SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver)
 ---
 
 ## 📌 Overview
@@ -19,37 +17,37 @@ This system is designed for **internal medical centre staff** including doctors,
 
 ## ✨ Key Features
 
-### 👨‍⚕️ Patient Management
+###  Patient Management
 - Register and manage patient records
 - Store medical history (diagnosis, allergies, treatments)
 - View full patient visit history
 
-### 📅 Appointment System
+###  Appointment System
 - Schedule and manage patient appointments
 - Auto-assign appointment numbers
 - Track both manual and system-generated bookings
 
-### 🧪 Laboratory Management
+###  Laboratory Management
 - Handle lab test requests from doctors
 - Track test status in real time
 - Share lab reports with doctors and patients
 
-### 💊 Drug Inventory Management
+###  Drug Inventory Management
 - Add, update, and remove medicines
 - Monitor expiry dates and stock availability
 - Manage supplier-linked drug records
 
-### 🚚 Supplier Management
+###  Supplier Management
 - Store supplier company details
 - Track drug supply information
 - Manage orders and updates
 
-### 💰 Billing & Financial System
+###  Billing & Financial System
 - Generate invoices for patients
 - Track payments and billing history
 - Generate financial reports for administration
 
-### 📄 Prescription Management
+###  Prescription Management
 - Doctors send prescriptions directly to pharmacists
 - Includes patient details and medication instructions
 - Fully digital doctor-to-pharmacy workflow
@@ -62,26 +60,9 @@ This system is designed for **internal medical centre staff** including doctors,
 |---|---|
 | Language | C# (.NET Framework) |
 | Frontend UI | Windows Forms |
-| Business Logic | C# (BLL Layer) |
-| Database | SQL Server / Oracle |
-| Architecture | 3-Layer (UI · Logic · Data Access) |
+| Database | SQL Server  |
 
----
 
-## 🧱 System Architecture
-
-```
-┌─────────────────────────────────────────┐
-│           Presentation Layer            │
-│         Windows Forms (C# UI)           │
-├─────────────────────────────────────────┤
-│           Business Logic Layer          │
-│         C# Classes & Services           │
-├─────────────────────────────────────────┤
-│           Data Access Layer             │
-│      SQL Server / Oracle Database       │
-└─────────────────────────────────────────┘
-```
 
 ---
 
@@ -89,34 +70,42 @@ This system is designed for **internal medical centre staff** including doctors,
 
 | Module | Description |
 |---|---|
-| 🔧 Admin Module | System configuration, user management |
-| 🧑 Patient Module | Patient registration and records |
-| 🩺 Doctor Module | Appointments, prescriptions, lab requests |
-| 💊 Pharmacist Module | Prescription handling and dispensing |
-| 🧪 Laboratory Module | Test management and reporting |
-| 🚚 Supplier Module | Supplier and drug supply management |
-| 💰 Finance Module | Billing, invoices, and financial reports |
+|  Admin Module | System configuration, user management |
+|  Patient Module | Patient registration and records |
+|  Doctor Module | Appointments, prescriptions, lab requests |
+|  Pharmacist Module | Prescription handling and dispensing |
+|  Laboratory Module | Test management and reporting |
+|  Supplier Module | Supplier and drug supply management |
+|  Finance Module | Billing, invoices, and financial reports |
 
----
+## 📁 Project Structure
 
+```text
+Diploma Final Project 1/
+│
+├── Properties/ # Project properties and settings
+├── Docs/ # Documentation files
+├── Resources/ # Images, icons, and resource files
+│
+├── Forms/ # Windows Forms
+│
+├── Reports/ # Crystal Reports files
+│   
+├── .gitattributes
+├── .gitignore
+├── App.config
+├── README.md
+
+```
 ## 🎯 Project Objectives
 
 - ✅ Reduce manual workload in medical centres
 - ✅ Improve data accuracy and accessibility
-- ✅ Speed up hospital operations end-to-end
+- ✅ Speed up medical centre operations end-to-end
 - ✅ Centralize patient and medical data management
 
 ---
 
-## 👨‍💻 My Role
-
-- System Design
-- Database Design
-- Backend Development (C#)
-- UI Development (Windows Forms)
-- Integration of all modules
-
----
 
 
 
